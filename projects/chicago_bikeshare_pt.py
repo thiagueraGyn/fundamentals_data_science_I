@@ -327,7 +327,7 @@ median_trip = get_averagen(converted_trip_duration_list)
 
 
 print("\nTAREFA 9: Imprimindo o mínimo, máximo, média, e get_get_averagen")
-print("Min: ", min_trip, "Max: ", max_trip, "Média: ", mean_trip, "get_get_averagen: ", median_trip)
+print("Min: ", min_trip, "Max: ", max_trip, "Média: ", mean_trip, "Mediana: ", median_trip)
 
 # ------------ NÃO MUDE NENHUM CÓDIGO AQUI ------------
 assert round(min_trip) == 60, "TAREFA 9: min_trip com resultado errado!"
